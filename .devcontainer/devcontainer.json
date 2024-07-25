@@ -10,9 +10,9 @@
     "Start server": "npm start"
   },
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
-  "forwardPorts": [8888],
+  "forwardPorts": [80],
   "portsAttributes": {
-    "8888": {
+    "80": {
       "label": "Preview of Standard Checkout Flow",
       "onAutoForward": "openBrowserOnce"
     }
